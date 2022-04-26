@@ -10,10 +10,10 @@ console.log("Starting sensor");
 
 // Power up the sensor HX711
 sensor.powerUp();
-
-
-sensor.setScale(100.0);
 sensor.tare();
+
+sensor.setScale(428831);
+
 
 while (1) {
         console.log("data: " + sensor.getUnits());
