@@ -1,0 +1,18 @@
+{
+  "name": "hx711-js",
+  "version": "0.0.1",
+  "description": "HX711 for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hx711"
+  ],
+  "author": "Davide Del Gatto",
+  "license": "ISC",
+  "dependencies": {
+    "@ataberkylmz/hx711": "^0.1.6",
+    "nodemon": "^2.0.15"
+  }
+}
